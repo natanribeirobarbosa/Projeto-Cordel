@@ -52,10 +52,12 @@ header a:hover, footer a:hover{
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 2em; /* Espassamento dublo entre as linhas */
+    line-height: 1.6em; /* Espassamento dublo entre as linhas */
     padding-left: 30px;
     font-family: var(--font3);
     font-size: 2vw;
+    letter-spacing: 0.25em;
+    word-spacing: 0.5em;
 }
 
 section > p{
